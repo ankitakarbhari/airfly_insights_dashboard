@@ -10,7 +10,8 @@ print(df.isnull().sum())
 df_sample = df.sample(frac=0.3, random_state=42)
 
 # memory optimization
-df['origin'] = df['origin'].astype('category')
+##
+# df['origin'] = df['origin'].astype('category')
 df['destination'] = df['destination'].astype('category')
 
 # Handale Null Vlaue
